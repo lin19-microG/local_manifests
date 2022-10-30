@@ -13,4 +13,11 @@
   <!-- AuroraStore prebuilt-->
   <project path="prebuilts/AuroraStore" name="MSe1969/AuroraStore-prebuilt" revision="master" />
 
+   <!-- Replaced/enhanced Repositories -->
+  <remove-project name="LineageOS/android_frameworks_base" />
+  <project path="frameworks/base" name="lin19-microG/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
+  <remove-project name="LineageOS/android_packages_apps_Settings" />
+  <project path="packages/apps/Settings" name="lin19-microG/android_packages_apps_Settings" groups="pdk-fs" />
+  <remove-project name="LineageOS/android_vendor_lineage" />
+  <project path="vendor/lineage" name="lin19-microG/android_vendor_lineage" />
 </manifest>
