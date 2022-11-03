@@ -13,7 +13,10 @@
   <!-- AuroraStore prebuilt-->
   <project path="prebuilts/AuroraStore" name="MSe1969/AuroraStore-prebuilt" revision="12L" />
 
-   <!-- Replaced/enhanced Repositories -->
+  <!-- GrapheneOS hardened malloc -->
+  <project path="external/hardened_malloc" name="GrapheneOS/hardened_malloc" revision="a56dc66fea9e3d509045901e846bcae59114128a" />
+
+  <!-- Replaced/enhanced Repositories -->
   <remove-project name="LineageOS/android_frameworks_base" />
   <project path="frameworks/base" name="lin19-microG/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
