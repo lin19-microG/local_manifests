@@ -38,6 +38,8 @@
   <project path="frameworks/native" name="lin19-microG/android_frameworks_native" groups="pdk" />
   <remove-project name="LineageOS/android_bionic" />
   <project path="bionic" name="lin19-microG/android_bionic" groups="pdk" />
+  <remove-project name="LineageOS/android_packages_apps_LineageParts" />
+  <project path="packages/apps/LineageParts" name="lin19-microG/android_packages_apps_LineageParts" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
   <project path="packages/apps/Settings" name="lin19-microG/android_packages_apps_Settings" groups="pdk-fs" />
   <remove-project name="LineageOS/android_system_core" />
