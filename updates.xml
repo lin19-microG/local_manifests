@@ -19,7 +19,7 @@
 
   <!-- Replaced/enhanced Repositories -->
   <remove-project name="LineageOS/android_build" />
-  <project path="build/make" name="lin19-microG/android_build_make" groups="pdk" >
+  <project path="build/make" name="lin19-microG/android_build_make" groups="pdk" revision="lin-19.1-microG" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -29,34 +29,34 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
   <remove-project name="LineageOS/android_build_soong" />
-  <project path="build/soong" name="lin19-microG/android_build_soong" groups="pdk,tradefed" >
+  <project path="build/soong" name="lin19-microG/android_build_soong" groups="pdk,tradefed" revision="lin-19.1-microG" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <remove-project name="LineageOS/android_bionic" />
-  <project path="bionic" name="lin19-microG/android_bionic" groups="pdk" />
+  <project path="bionic" name="lin19-microG/android_bionic" groups="pdk" revision="lin-19.1-microG" />
   <remove-project name="LineageOS/android_frameworks_base" />
-  <project path="frameworks/base" name="lin19-microG/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/base" name="lin19-microG/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" revision="lin-19.1-microG" />
   <remove-project name="LineageOS/android_frameworks_native" />
-  <project path="frameworks/native" name="lin19-microG/android_frameworks_native" groups="pdk" />
+  <project path="frameworks/native" name="lin19-microG/android_frameworks_native" groups="pdk" revision="lin-19.1-microG" />
   <remove-project name="LineageOS/android_libcore" />
-  <project path="libcore" name="lin19-microG/android_libcore" groups="pdk" />
+  <project path="libcore" name="lin19-microG/android_libcore" groups="pdk" revision="lin-19.1-microG" />
   <remove-project name="LineageOS/android_packages_apps_LineageParts" />
-  <project path="packages/apps/LineageParts" name="lin19-microG/android_packages_apps_LineageParts" />
+  <project path="packages/apps/LineageParts" name="lin19-microG/android_packages_apps_LineageParts" revision="lin-19.1-microG" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
-  <project path="packages/apps/Settings" name="lin19-microG/android_packages_apps_Settings" groups="pdk-fs" />
+  <project path="packages/apps/Settings" name="lin19-microG/android_packages_apps_Settings" groups="pdk-fs" revision="lin-19.1-microG" />
   <remove-project name="LineageOS/android_packages_modules_Connectivity" />
-  <project path="packages/modules/Connectivity" name="lin19-microG/android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/modules/Connectivity" name="lin19-microG/android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" revision="lin-19.1-microG" />
   <remove-project name="platform/packages/modules/DnsResolver" />
-  <project path="packages/modules/DnsResolver" name="lin19-microG/android_packages_modules_DnsResolver" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/modules/DnsResolver" name="lin19-microG/android_packages_modules_DnsResolver" groups="pdk-cw-fs,pdk-fs" revision="lin-19.1-microG" />
   <remove-project name="LineageOS/android_packages_modules_Permission" />
-  <project path="packages/modules/Permission" name="lin19-microG/android_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/modules/Permission" name="lin19-microG/android_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" revision="lin-19.1-microG" />
   <remove-project name="LineageOS/android_packages_modules_Wifi" />
-  <project path="packages/modules/Wifi" name="lin19-microG/android_packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/modules/Wifi" name="lin19-microG/android_packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs" revision="lin-19.1-microG" />
   <remove-project name="LineageOS/android_system_core" />
-  <project path="system/core" name="lin19-microG/android_system_core" groups="pdk" />
+  <project path="system/core" name="lin19-microG/android_system_core" groups="pdk" revision="lin-19.1-microG" />
   <remove-project name="LineageOS/android_system_sepolicy" />
-  <project path="system/sepolicy" name="lin19-microG/android_system_sepolicy" groups="pdk" />
+  <project path="system/sepolicy" name="lin19-microG/android_system_sepolicy" groups="pdk" revision="lin-19.1-microG" />
   <remove-project name="LineageOS/android_vendor_lineage" />
-  <project path="vendor/lineage" name="lin19-microG/android_vendor_lineage" />
+  <project path="vendor/lineage" name="lin19-microG/android_vendor_lineage" revision="lin-19.1-microG" />
 </manifest>
