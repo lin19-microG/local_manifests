@@ -49,6 +49,8 @@
   <project path="packages/modules/Connectivity" name="lin19-microG/android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" />
   <remove-project name="platform/packages/modules/DnsResolver" />
   <project path="packages/modules/DnsResolver" name="lin19-microG/android_packages_modules_DnsResolver" groups="pdk-cw-fs,pdk-fs" />
+  <remove-project name="platform/packages/modules/NetworkStack" />
+  <project path="packages/modules/NetworkStack" name="lin19-microG/android_packages_modules_NetworkStack" groups="pdk-cw-fs,pdk-fs" />
   <remove-project name="LineageOS/android_packages_modules_Permission" />
   <project path="packages/modules/Permission" name="lin19-microG/android_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" />
   <remove-project name="LineageOS/android_packages_modules_Wifi" />
