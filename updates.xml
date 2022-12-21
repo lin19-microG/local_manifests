@@ -45,6 +45,8 @@
   <project path="packages/apps/LineageParts" name="lin19-microG/android_packages_apps_LineageParts" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
   <project path="packages/apps/Settings" name="lin19-microG/android_packages_apps_Settings" groups="pdk-fs" />
+  <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
+  <project path="packages/apps/Trebuchet" name="lin19-microG/android_packages_apps_Trebuchet" />
   <remove-project name="LineageOS/android_packages_modules_Connectivity" />
   <project path="packages/modules/Connectivity" name="lin19-microG/android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" />
   <remove-project name="platform/packages/modules/DnsResolver" />
