@@ -3,6 +3,13 @@
 
   <remote name="Gitlab" fetch="https://gitlab.com" />
 
+  <!-- Patches & root-scripts Directory -->
+  <project path="z_patches" name="lin19-microG/z_patches" revision="lin-19.1-microG" />
+  <project path="z_patches/croot-scripts" name="lin19-microG/croot-scripts" revision="master" />
+
+  <!-- Static OTA updater resource -->
+  <project path="OTA" name="lin19-microG/OTA" revision="lin-19.1-microG" />
+
   <!-- microG Build, prebuilt apks -->
   <project path="prebuilts/prebuiltapks" name="MSe1969/android_prebuilts_prebuiltapks" revision="12L" />
 
