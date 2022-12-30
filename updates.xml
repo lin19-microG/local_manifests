@@ -64,6 +64,8 @@
   <project path="packages/modules/Permission" name="lin19-microG/android_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" revision="lin-19.1-microG" />
   <remove-project name="LineageOS/android_packages_modules_Wifi" />
   <project path="packages/modules/Wifi" name="lin19-microG/android_packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs" revision="lin-19.1-microG" />
+  <remove-project name="LineageOS/android_packages_providers_MediaProvider" />
+  <project path="packages/providers/MediaProvider" name="lin19-microG/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" revision="lin-19.1-microG" />
   <remove-project name="LineageOS/android_system_core" />
   <project path="system/core" name="lin19-microG/android_system_core" groups="pdk" revision="lin-19.1-microG" />
   <remove-project name="LineageOS/android_system_sepolicy" />
