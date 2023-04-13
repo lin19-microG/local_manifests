@@ -54,6 +54,8 @@
   <project path="frameworks/native" name="lin19-microG/android_frameworks_native" groups="pdk" />
   <remove-project name="LineageOS/android_libcore" />
   <project path="libcore" name="lin19-microG/android_libcore" groups="pdk" />
+  <remove-project name="LineageOS/android_packages_apps_Jelly" />
+  <project path="packages/apps/Jelly" name="lin19-microG/android_packages_apps_Jelly" />
   <remove-project name="LineageOS/android_packages_apps_LineageParts" />
   <project path="packages/apps/LineageParts" name="lin19-microG/android_packages_apps_LineageParts" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
